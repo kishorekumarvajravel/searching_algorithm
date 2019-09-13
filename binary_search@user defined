@@ -1,0 +1,9 @@
+l=[14,4,512,4,4,678,21]
+n=int(input("enter a elements to search:"))
+s=sorted(l)
+for i in range(len(s)):
+    if n==s[i]:
+        print("the value in found at indexes:",i)
+        break
+else:
+    print("not found")
